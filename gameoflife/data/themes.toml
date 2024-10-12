@@ -1,0 +1,36 @@
+# Theme data for the application
+
+["Classic"]
+Name = "Classic"
+StartButton = "#008800"
+StopQuitButtons = "#880000"
+ControlButtons = "#797979"
+Labels = "#777777"
+Frame = "#555555"
+MenuText = "#000000"
+SimBackground = "#777777"
+SimText = "#000000"
+
+
+["OldSchool"]
+Name = "OldSchool"
+StartButton = "#000000"
+StopQuitButtons = "#000000"
+ControlButtons = "#000000"
+Labels = "#000000"
+Frame = "#000000"
+MenuText = "#00FF00"
+SimBackground = "#000000"
+SimText = "#00FF00"
+
+
+["Contrast"]
+Name = "Contrast"
+StartButton = "#000000"
+StopQuitButtons = "#000000"
+ControlButtons = "#000000"
+Labels = "#000000"
+Frame = "#000000"
+MenuText = "#FFFFFF"
+SimBackground = "#000000"
+SimText = "#FFFFFF"

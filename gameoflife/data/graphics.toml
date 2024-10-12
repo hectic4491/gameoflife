@@ -1,0 +1,29 @@
+["Blocks-E"]
+Name = "Blocks-E"
+Alive = "\u25A0"
+Dead = " "
+
+["Blocks-G"]
+Name = "Blocks-G"
+Alive = "\u25A0"
+Dead = "\u00B7"
+
+["Hearts-E"]
+Name = "Hearts-E"
+Alive = "\u2665"
+Dead = " "
+
+["Hearts-G"]
+Name = "Hearts-G"
+Alive = "\u2665"
+Dead = "\u00B7"
+
+["Circles-E"]
+Name ="Circles-E"
+Alive = "\u25CF"
+Dead = " "
+
+["Circles-G"]
+Name = "Circles-G"
+Alive = "\u25CF"
+Dead = "\u00B7"

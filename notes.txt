@@ -1,0 +1,19 @@
+### TODO ###
+
+-> Fix main menu spacer sizing issues in highest two resolutions.
+-> Add a "revert resoltuion" pop up box after submitting a new resolution change.
+-> Add an about page.
+
+
+### BUGS ###
+
+(?) In the highest two resolutions, the quit button slides off the screen when native display is in 125% scale mode
+
+
+version_1.5.3
+
+> About Tab
+    - A quick about tab page for the program.
+
+> Package
+    - Package as an executable.

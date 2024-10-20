@@ -277,10 +277,13 @@ class UserInterface():
         
         self.btn_fullscreen = tk.Button(master=self.settings_tab,
                                         font=self.menu_font,
-                                        text="Fullscreen",
                                         bg=simulation.THEMES["Labels"],
                                         fg=simulation.THEMES["MenuText"])
-        
+        if simulation.FULLSCREEN == False:
+            self.btn_fullscreen.configure(text="Fullscreen")
+        else:
+            self.btn_fullscreen.configure(text="Windowed")
+
         self.btn_fullscreen.grid(row=2,
                                  column=2,
                                  sticky="ew",

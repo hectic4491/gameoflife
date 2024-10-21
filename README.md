@@ -21,7 +21,7 @@
   
 > * The main _random_ pattern creates a randomized initialized pattern that shows the chaotic nature of the Game of Life.
 > * Blinker, Toad, Beacon, Pulsar, and Penta Decathlon show [oscillator](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) behaviors.
-> * Glider shows the potential for moving cell patterns that traverse the matrix space.
+> * Glider shows the potential for [spaceships](https://en.wikipedia.org/wiki/Spaceship_(cellular_automaton)); moving cell patterns that traverse the matrix space.
 > * Glider Gun shows the possibility of creating an infinite reproduction of cells \(the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite grid would show true infinite reproduction.\).
 > * Bunnies demonstrates the potential for emerging behavior, where certain patterns hold can expand in population rather quickly.
 

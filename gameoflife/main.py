@@ -4,7 +4,6 @@ from cell import Cell
 import userinterface_functions as uif
 
 from functools import partial
-import os
 
 def main():
 
@@ -51,10 +50,6 @@ def main():
     
     ui.tab_system.bind("<<NotebookTabChanged>>", lambda _: uif.stopSimulation(ui=ui,
                                                                               simulation=simulation))
-    
-    if os.name == 'posix':
-        ui.root.bind('<Configure>', lambda _: uif.updateWidgetResolution(ui=ui,
-                                                                         simulation=simulation))
 
 
     ## Insert Fields ##

@@ -15,7 +15,7 @@
 > * Any alive cell with more than three alive neighbours dies, as if by overpopulation.
 > * Any dead cell with exactly three alive neighbours becomes an alive cell, as if by reproduction.
 
-
+[]
   The application comes with a set of initial [patterns](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns) to demonstrate different behaviors. 
 
   

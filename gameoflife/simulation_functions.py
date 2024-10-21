@@ -1,8 +1,8 @@
 from random import randint
 from tkinter import END
 
-import gameoflife.cell as cell
-import gameoflife.toml_functions as tf
+import cell as cell
+import toml_functions as tf
 
 
 def generateDisplay(displaySize: tuple) -> list:

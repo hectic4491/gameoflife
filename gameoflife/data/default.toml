@@ -3,4 +3,4 @@ THEMES = "Classic"
 GRAPHICS = "Blocks-G"
 RESOLUTION = "800x600"
 FRAMERATE = 12
-FULLSCREEN = true
+FULLSCREEN = false

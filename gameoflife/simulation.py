@@ -1,4 +1,4 @@
-import gameoflife.toml_functions as tf
+import toml_functions as tf
 
 class Simulation():
     """

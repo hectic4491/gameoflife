@@ -1,11 +1,11 @@
-import gameoflife.simulation_functions as sf
-import gameoflife.toml_functions as tf
+import simulation_functions as sf
+import toml_functions as tf
 
 import tkinter as tk
 import tkinter.font as tkFont
 from tkinter import ttk 
 from functools import partial
-from gameoflife.cell import Cell
+from cell import Cell
 
 ### Command Functions ###
 def startSimulation(ui, simulation):

@@ -1,7 +1,7 @@
-from gameoflife.simulation import Simulation
-from gameoflife.userinterface import UserInterface
-from gameoflife.cell import Cell
-import gameoflife.userinterface_functions as uif
+from simulation import Simulation
+from userinterface import UserInterface
+from cell import Cell
+import userinterface_functions as uif
 
 from functools import partial
 

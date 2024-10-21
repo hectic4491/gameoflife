@@ -28,8 +28,12 @@ A few motivating and useful examples of how your product can be used. Spice this
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Requirements
-* Python version 3.12.26
-* toml version 0.10.2
+Python:
+  * version: 3.12.26
+    
+Python Libraries:
+  * toml
+    * version 0.10.2
 
 ## Release History
 

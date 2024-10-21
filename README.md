@@ -39,8 +39,22 @@ npm install my-crazy-module --save
 Windows:
 
 ```sh
-edit autoexec.bat
+git clone https://github.com/hectic4491/gameoflife.git
 ```
+```sh
+cd gameoflife
+```
+```sh
+python -m venv venv
+.\venv\Scipts\activate
+```
+```sh
+pip install -r requirements.txt
+```
+```sh
+python gameoflife
+```
+
 
 ## Usage example
 

@@ -29,11 +29,11 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Requirements
 Python:
-    * version: 3.12.26
+   * version: 3.12.26
     
 Python Libraries:
-  * toml
-    * version: 0.10.2
+* toml
+   * version: 0.10.2
 
 ## Release History
 

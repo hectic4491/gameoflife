@@ -47,6 +47,10 @@ Install dependencies.
 pip install -r requirements.txt
 sudo apt-get install python3-tk
 ```
+Run the application.
+```sh
+python3 -m gameoflife
+```
 
 
 ### Windows:
@@ -67,7 +71,7 @@ pip install -r requirements.txt
 ```
 Run the application.
 ```sh
-python3 -m gameoflife
+python gameoflife
 ```
 
 ## Requirements

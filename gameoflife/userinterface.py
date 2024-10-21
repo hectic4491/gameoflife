@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 from tkinter import ttk
-
+import os
 
 class UserInterface():
 
@@ -15,6 +15,14 @@ class UserInterface():
         else:
             self.root.geometry(simulation.RESOLUTION["WINDOW_SIZE"])
         self.root.resizable(width=False, height=False)
+
+        print(os.name)
+
+        if os.name == 'nt':
+            self.root.wm_attributes('-toolwindow', True)
+
+        elif os.name == 'posix':
+            self.root.attributes('-type', 'dialog')
 
     ### Fonts ###
         self.field_font = ("courier new", 8)

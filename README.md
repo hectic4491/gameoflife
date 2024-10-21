@@ -82,6 +82,8 @@ Python Libraries:
 * toml
    * version: 0.10.2
 
+## Known Bugs
+* In Linux / OS X; the maximize/restore header button does not update the simulation display field. It's recommended to use the setting's tab fullscreen/window button to change the resolution.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.

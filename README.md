@@ -49,7 +49,7 @@ sudo apt-get install python3-tk
 ```
 Run the application.
 ```sh
-python3 -m gameoflife
+python3 gameoflife
 ```
 
 

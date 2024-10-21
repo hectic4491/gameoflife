@@ -27,37 +27,21 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
+## Requirements
+* Python version 3.12.26
+* toml version 0.10.2
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+* 1.0.0 (10/20/2024)
+   * Release of Conway's Game of Life application.
 
 ## Meta
 
 Robert Hunt - ig: [@furtiveplant](https://www.instagram.com/furtiveplant/) - X: [@FurtivePlant](https://x.com/FurtivePlant) - finalrob@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/hectic4491/gameoflife](https://github.com/hectic4491/gameoflife)
 
 ## Contributing
 

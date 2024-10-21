@@ -53,7 +53,8 @@ def main():
                                                                               simulation=simulation))
     
     if os.name == 'posix':
-        ui.root.bind('<Configure>', partial(uif.updateWidgetResolution, ui=ui, simulation=simulation))
+        ui.root.bind('<Configure>', lambda _: uif.updateWidgetResolution(ui=ui,
+                                                                         simulation=simulation))
 
 
     ## Insert Fields ##

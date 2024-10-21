@@ -30,13 +30,13 @@ The application was constructed fully in Python. The GUI was constructed with py
 
 ## Installation
 
-OS X & Linux:
+### OS X & Linux:
 
 ```sh
 npm install my-crazy-module --save
 ```
 
-Windows:
+### Windows:
 
 Clone the repository.
 ```sh

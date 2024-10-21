@@ -31,6 +31,7 @@ The application was constructed fully in Python. The GUI was constructed with py
 ## Installation
 
 ### OS X & Linux:
+> Read 'Known Bugs' section if you intend to use it on OS X or Linux.
 
 Clone the repository and change into it's directory.
 ```sh

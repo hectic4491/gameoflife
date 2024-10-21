@@ -30,23 +30,30 @@ The application was constructed fully in Python. The GUI was constructed with py
 
 ## Installation
 
-OS X & Linux:
+### OS X & Linux:
 
+WIP
+
+### Windows:
+
+Clone the repository and change into it's directory.
 ```sh
-npm install my-crazy-module --save
+git clone https://github.com/hectic4491/gameoflife.git
+cd gameoflife
 ```
-
-Windows:
-
+Create and activate a virtual environment.
 ```sh
-edit autoexec.bat
+python -m venv venv
+.\venv\Scipts\activate
 ```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Install dependencies.
+```sh
+pip install -r requirements.txt
+```
+Run the application.
+```sh
+python gameoflife
+```
 
 ## Requirements
 Python:
@@ -55,6 +62,7 @@ Python:
 Python Libraries:
 * toml
    * version: 0.10.2
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.

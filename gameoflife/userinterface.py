@@ -22,7 +22,7 @@ class UserInterface():
             self.root.wm_attributes('-toolwindow', True)
 
         elif os.name == 'posix':
-            self.root.attributes('-type', 'dialog')
+            self.root.overrideredirect(True)
 
     ### Fonts ###
         self.field_font = ("courier new", 8)

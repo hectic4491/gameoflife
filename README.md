@@ -15,11 +15,15 @@
 > * Any alive cell with more than three alive neighbours dies, as if by overpopulation.
 > * Any dead cell with exactly three alive neighbours becomes an alive cell, as if by reproduction.
 
-  The application comes with a set of initial [patterns](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns) to demonstrate different behaviors. The main _random_ pattern creates a randomized initialized pattern that shows the chaotic nature of the Game of Life. 
-  > Patterns like Blinker, Toad, Beacon, Pulsar, and Penta Decathlon show stabile behaviors.
-  > Patterns like Glider show the potential for moving cell patterns that traverse the matrix space.
-  > Glider Gun shows the possibility of creating an infinite reproduction of cells \(the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite grid would show true infinite reproduction.\).
-> Bunnies demonstrates the potential for emerging behavior, where certain patterns hold can expand in population rather quickly.
+
+  The application comes with a set of initial [patterns](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns) to demonstrate different behaviors. 
+
+  
+> * The main _random_ pattern creates a randomized initialized pattern that shows the chaotic nature of the Game of Life.
+> * Blinker, Toad, Beacon, Pulsar, and Penta Decathlon show stabile behaviors.
+> * Glider shows the potential for moving cell patterns that traverse the matrix space.
+> * Glider Gun shows the possibility of creating an infinite reproduction of cells \(the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite grid would show true infinite reproduction.\).
+> * Bunnies demonstrates the potential for emerging behavior, where certain patterns hold can expand in population rather quickly.
 
 The application was constructed fully in Python. The GUI was constructed with python's native tkinter GUI library. Data files are formatted with the TOML configuration file format. 
 

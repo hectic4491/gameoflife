@@ -1,5 +1,5 @@
 # Conway's Game of Life
-> Short blurb about what your product does.
+> A graphical simulation of the Game of Life
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]

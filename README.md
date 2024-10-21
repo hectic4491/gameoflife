@@ -19,7 +19,7 @@
   The application comes with a set of initial [patterns](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns) to demonstrate different behaviors. 
 
   
-> * The main _random_ pattern creates a randomized initialized pattern that shows the chaotic nature of the Game of Life.
+> * The main _random_ pattern creates a randomized initial pattern that shows the chaotic nature of the Game of Life.
 > * Blinker, Toad, Beacon, Pulsar, and Penta Decathlon show [oscillator](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) behaviors.
 > * Glider shows the potential for [spaceships](https://en.wikipedia.org/wiki/Spaceship_(cellular_automaton)); moving cell patterns that traverse the matrix space.
 > * [Glider Gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) shows the possibility of creating an infinite reproduction of cells \(the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite matrix would show true infinite reproduction\). This pattern of infinite behavior was the first demonstration to disprove Conway's upper limit conjecture. As a result, Game of Life was eventually proved to be Turing Complete.

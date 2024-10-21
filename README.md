@@ -1,11 +1,9 @@
 # Conway's Game of Life
-> A graphical simulation of the Game of Life
+> A functinal GUI application to simulate John Conway's the Game of Life.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+This application provides a full graphical user interface to simulate the famous cellular automaton Game of Life. The rule set was devised by British mathematician John Conway in 1970.
+The application was constructed 
 
 ![](header.png)
 
@@ -55,7 +53,7 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Robert Hunt - ig: [@furtiveplant](https://www.instagram.com/furtiveplant/) - X: [@FurtivePlant](https://x.com/FurtivePlant) - finalrob@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 

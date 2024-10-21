@@ -1,5 +1,5 @@
 # Conway's Game of Life
-> A functinal GUI application to simulate John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) utilizing Python.
+> A functinal GUI application to simulate _John Conway's_ [_Game of Life_](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) utilizing Python.
 
 ![](gameoflife_example-1.jpg)
 

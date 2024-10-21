@@ -32,24 +32,7 @@ The application was constructed fully in Python. The GUI was constructed with py
 
 ### OS X & Linux:
 
-Clone the repository and change into it's directory.
-```sh
-git clone https://github.com/hectic4491/gameoflife.git
-cd gameoflife
-```
-Create and activate a virtual environment.
-```sh
-python3 -m venv venv
-source venv\bin\activate
-```
-Install dependencies.
-```sh
-pip install -r requirements.txt
-```
-Run the application.
-```sh
-python3 -m gameoflife
-```
+WIP
 
 ### Windows:
 

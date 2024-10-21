@@ -38,19 +38,24 @@ npm install my-crazy-module --save
 
 Windows:
 
+Clone the repository.
 ```sh
 git clone https://github.com/hectic4491/gameoflife.git
 ```
+Change directory into the repository.
 ```sh
 cd gameoflife
 ```
+Create a virtual environment, then activate it.
 ```sh
 python -m venv venv
 .\venv\Scipts\activate
 ```
+Install the required packages.
 ```sh
 pip install -r requirements.txt
 ```
+Run the application.
 ```sh
 python gameoflife
 ```

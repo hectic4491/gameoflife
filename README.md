@@ -5,7 +5,7 @@
 This application provides a full graphical user interface to simulate the famous cellular automaton Game of Life. The rule set was devised by British mathematician John Conway in 1970.
 The application was constructed 
 
-![](gameoflife_example-1.png)
+![](gameoflife_example-1.jpg)
 
 ## Installation
 

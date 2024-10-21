@@ -22,7 +22,7 @@
 > * The main _random_ pattern creates a randomized initialized pattern that shows the chaotic nature of the Game of Life.
 > * Blinker, Toad, Beacon, Pulsar, and Penta Decathlon show [oscillator](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) behaviors.
 > * Glider shows the potential for [spaceships](https://en.wikipedia.org/wiki/Spaceship_(cellular_automaton)); moving cell patterns that traverse the matrix space.
-> * [Glider Gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) shows the possibility of creating an infinite reproduction of cells \(the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite matrix would show true infinite reproduction\). This pattern of infinite behavior was the first demonstration to disprove Conway's upper limit conjecture. As a result, Game of Life was eventually proved to be Turing Complete.
+> * [Glider Gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) shows the possibility of creating an infinite reproduction of cells (the pac-man connectivity eventually causes the pattern to crash into itself, but a truely infinite matrix would show true infinite reproduction). This pattern of infinite behavior was the first demonstration to disprove Conway's upper limit conjecture. As a result, Game of Life was eventually proved to be Turing Complete.
 > * Bunnies demonstrates the potential for emerging behavior, where certain patterns can expand in population rather quickly.
 
 The application was constructed fully in Python. The GUI was constructed with python's native cross-platform _tkinter_ GUI library. Data files are formatted with the _TOML_ configuration file format. The application allows for Windowed and Fullscreen display modes. Further settings can be adjusted in the applications settings menu; specifically the color theme, display characters, and framerate. Default settings are saved in a default.toml file and restored on future launches of the application. This project was created to test python's capabilites of application development with GUI functionality.
@@ -55,6 +55,9 @@ Python:
 Python Libraries:
 * toml
    * version: 0.10.2
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## Release History
 

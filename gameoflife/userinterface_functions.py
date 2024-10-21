@@ -392,6 +392,8 @@ def updateWidgetThemes(ui, simulation):
 
     ui.settings_tab.configure(bg=simulation.THEMES["Frame"])
 
+    ui.about_tab.configure(bg=simulation.THEMES["Frame"])
+
     ui.btn_start.configure(bg=simulation.THEMES["StartButton"],
                            fg=simulation.THEMES["MenuText"])
     
@@ -451,6 +453,12 @@ def updateWidgetThemes(ui, simulation):
 
     ui.btn_submit.configure(bg=simulation.THEMES["StartButton"],
                             fg=simulation.THEMES["MenuText"])
+    
+    ui.lbl_about_header.configure(bg=simulation.THEMES["Labels"],
+                                  fg=simulation.THEMES["MenuText"])
+    
+    ui.lbl_about_body.configure(bg=simulation.THEMES["Labels"],
+                                fg=simulation.THEMES["MenuText"])
 
 
 def updateWidgetResolution(ui, simulation):

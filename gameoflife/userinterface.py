@@ -333,3 +333,36 @@ class UserInterface():
         self.btn_submit.grid(row=4,
                         column=1,
                         columnspan=2)
+        
+
+    ### About Tab Frame ###
+    ## Configure Grid ##
+        self.about_tab.rowconfigure(0, weight=1)
+        self.about_tab.rowconfigure(1, weight=20)
+        self.about_tab.columnconfigure(0, weight=1)
+
+        self.lbl_about_header = tk.Label(master=self.about_tab,
+                                         font=self.menu_font,
+                                         text=" - Conway's Game of Life - \n by Robert Hunt\n More info at 'https://github.com/hectic4491/gameoflife/'",
+                                         bg=simulation.THEMES["Labels"],
+                                         fg=simulation.THEMES["MenuText"])
+        
+        self.lbl_about_header.grid(row=0,
+                                   column=0,
+                                   sticky="nsew",
+                                   padx=10,
+                                   pady=10)
+        
+
+        self.lbl_about_body = tk.Label(master=self.about_tab,
+                                       font=self.menu_font,
+                                       justify="left",
+                                       anchor='nw',
+                                       bg=simulation.THEMES["Labels"],
+                                       fg=simulation.THEMES["MenuText"])
+        
+        self.lbl_about_body.grid(row=1,
+                                 column=0,
+                                 sticky="nsew",
+                                 padx=10,
+                                 pady=10)

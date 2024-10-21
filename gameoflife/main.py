@@ -2,7 +2,7 @@ from simulation import Simulation
 from userinterface import UserInterface
 from cell import Cell
 import userinterface_functions as uif
-
+import read_text as rt
 from functools import partial
 
 def main():
@@ -64,6 +64,9 @@ def main():
         uif.insertResolutionSizes(ui=ui)
     uif.insertFramerates(ui=ui)
 
+
+    ## Insert About Text ##
+    ui.lbl_about_body.configure(text=rt.read_about())
 
     ## Center Application ##
     ui.root.update()

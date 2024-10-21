@@ -1,0 +1,24 @@
+Main Guide:
+
+    Start - Starts or continues the currently loaded simulation.
+
+    Stop - Pauses the currently loaded simulation.
+
+    New - Initiates a new simulation.
+
+    Select - Below the select button is the selection field for different
+             pattern types. Click a pattern and load it by clicking Select.
+    Quit - Quits the application.
+
+
+Settings Guide:
+
+    Themes - Choose different color themes.
+
+    Cells - Choose different character representations of the cells.
+
+    Resolution - Toggle between Fullscreen/Windowed mode. On windowed mode,
+                 choose between different resolutions.
+    Framerate - Choose the framerate of the simulation.
+
+    Submit Settings - After choosing settings, click this to submit them.

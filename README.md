@@ -1,9 +1,14 @@
 # Conway's Game of Life
-> A functinal GUI application to simulate John Conway's the Game of Life.
+> A functinal GUI application to simulate John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 
-This application provides a full graphical user interface to simulate the famous cellular automaton Game of Life. The rule set was devised by British mathematician John Conway in 1970.
-The application was constructed 
+  This application provides a full graphical user interface to simulate the famous [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) Game of Life. The **rule set** was devised by British mathematician [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) in 1970. The universe of the Game of Life is a two-dimensional grid of square cells. Traditional simulations allow the grid to be infinite, but this simulation provides "pac-man connectivity" where the horizontal and vertical edges of the grid connect back onto itself. Each cell is in either two states, alive or dead. Every cell is connected to it's neighboring eight cells; i.e. the cells horizontally, vertically, and diagonally adjacent. Cells at the edge refer the opposite edge's cells as neighbors. The simulation iterates through generations, where the state of each generate is determined by the **rule set**:
+  * Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+  * Any live cell with two or three live neighbours lives on to the next generation.
+  * Any live cell with more than three live neighbours dies, as if by overpopulation.
+  * Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+  
+The application was constructed fully in Python. The GUI was constructed with python's native tkinter GUI library. Data files are formatted with TOML. 
 
 ![](gameoflife_example-1.jpg)
 

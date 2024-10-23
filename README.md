@@ -77,7 +77,7 @@ python gameoflife
 
 ## Requirements
 Python:
-   * version: 3.12.26
+   * version: 3.12.26 or higher
     
 Python Libraries:
 * toml

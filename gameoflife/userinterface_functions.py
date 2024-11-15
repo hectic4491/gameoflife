@@ -133,7 +133,7 @@ def submitSettings(ui, simulation):
 
     simulation.RESOLUTION_NAME = RESOLUTION_NAME
     simulation.RESOLUTION = tf.readTOML_resolution(RESOLUTION_NAME)
-    ui.lbl_resolution_cur.configure(text=f"Current: {simulation.RESOLUTION["WINDOW_SIZE"]}")
+    ui.lbl_resolution_cur.configure(text=f"Current: {simulation.RESOLUTION['WINDOW_SIZE']}")
     updateWidgetResolution(ui=ui, simulation=simulation)
 
 
@@ -163,7 +163,7 @@ def toggleFullscreen(ui, simulation):
         tf.writeTOML_default_fullscreen(fullscreen=False)
 
         ui.btn_fullscreen.configure(text = "Fullscreen")
-        ui.lbl_resolution_cur.configure(text=f"Current: {simulation.RESOLUTION["WINDOW_SIZE"]}")
+        ui.lbl_resolution_cur.configure(text=f"Current: {simulation.RESOLUTION['WINDOW_SIZE']}")
 
         selected_resolution = tk.StringVar()
         ui.cmbbx_resolution = ttk.Combobox(master=ui.settings_tab,

@@ -253,7 +253,7 @@ class UserInterface():
 
         self.lbl_resolution_cur = tk.Label(master=self.settings_tab,
                                           font=self.menu_font,
-                                          text=f"Current: {simulation.RESOLUTION["WINDOW_SIZE"]}",
+                                          text=f"Current: {simulation.RESOLUTION['WINDOW_SIZE']}",
                                           bg=simulation.THEMES["Labels"],
                                           fg=simulation.THEMES["MenuText"])
         self.lbl_resolution_cur.grid(row=1,
